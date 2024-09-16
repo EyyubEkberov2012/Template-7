@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="icon"
+      href="https://themewagon.github.io/feane/images/favicon.png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="s_main">
+      <section id="s_slider">
+        <div class="s_menu_parent">
+          <div class="s_menu">
+            <div class="s_logo">
+              <span>Feane</span>
+            </div>
+            <div class="s_menu_line">
+              <ul>
+                <li><a style="color: #ffad1e" href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Book table</a></li>
+              </ul>
+            </div>
+
+            <div class="s_menu_login">
+              <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+              <a href="#"
+                ><i class="fa fa-shopping-cart" aria-hidden="true"></i
+              ></a>
+              <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+              <a href="#"><button>Order online</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="s_center">
+          <div class="s_fast">
+            <h1 style="font-size: 70px">Fast Food Restaurant</h1>
+          </div>
+          <div class="about">
+            Doloremque, itaque aperiam facilis rerum, commodi, temporibus
+            sapiente ad mollitia laborum quam quisquam esse error unde. Tempora
+            ex doloremque, labore, sunt repellat dolore, iste magni quos nihil
+            ducimus libero ipsam.
+          </div>
+          <div class="btna">
+            <button>Order online</button>
+          </div>
+        </div>
+        <div class="s_center">
+          <div class="s_fast">
+            <h1 style="font-size: 70px">Fast Food Restaurant</h1>
+          </div>
+          <div class="about">
+            Doloremque, itaque aperiam facilis rerum, commodi, temporibus
+            sapiente ad mollitia laborum quam quisquam esse error unde. Tempora
+            ex doloremque, labore, sunt repellat dolore, iste magni quos nihil
+            ducimus libero ipsam.
+          </div>
+          <div class="btna">
+            <button>Order online</button>
+          </div>
+        </div>
+        <div class="s_center">
+          <div class="s_fast">
+            <h1 style="font-size: 70px">Fast Food Restaurant</h1>
+          </div>
+          <div class="about">
+            Doloremque, itaque aperiam facilis rerum, commodi, temporibus
+            sapiente ad mollitia laborum quam quisquam esse error unde. Tempora
+            ex doloremque, labore, sunt repellat dolore, iste magni quos nihil
+            ducimus libero ipsam.
+          </div>
+          <div class="btna">
+            <button>Order online</button>
+          </div>
+        </div>
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </section>
+      <section id="s_2">
+        <div id="s_left">
+          <div id="O"></div>
+
+          <h3>Tasty Thursdays</h3>
+          <h1>20%</h1>
+          <h6>Off</h6>
+          <button>Order online</button>
+        </div>
+        <div id="s_right">
+          <div id="u"></div>
+
+          <h3>Pizza Days</h3>
+          <h1>15%</h1>
+          <h6>Off</h6>
+          <button>Order online</button>
+        </div>
+      </section>
+      <section id="s_3">
+        <h1>Our Menu</h1>
+        <div id="myBtnContainer">
+          <button class="btn active" onclick="filterSelection('all')">
+            All
+          </button>
+          <button class="btn" onclick="filterSelection('Burger')">
+            Burger
+          </button>
+          <button class="btn" onclick="filterSelection('Pizza')">Pizza</button>
+          <button class="btn" onclick="filterSelection('Pasta')">Pasta</button>
+          <button class="btn" onclick="filterSelection('Fries')">Fries</button>
+        </div>
+        <div class="center3">
+          <div class="card0">
+            <div class="card1">
+              <div class="imgp">
+                <img style="width: 150px" src="./img/f1.png" alt="" />
+              </div>
+              <h2>Delicious Pizza</h2>
+              <p>
+                Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                velit, magnam voluptatem repellendus sed eaque
+              </p>
+              <span>$20</span>
+              <div class="big">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              </div>
+            </div>
+
+            <div class="card1">
+              <div class="imgp">
+                <img style="width: 150px" src="./img/f2.png" alt="" />
+              </div>
+              <h2>Delicious Pizza</h2>
+              <p>
+                Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                velit, magnam voluptatem repellendus sed eaque
+              </p>
+              <span>$15</span>
+              <div class="big">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              </div>
+            </div>
+
+            <div class="card1">
+              <div class="imgp">
+                <img style="width: 150px" src="./img/f3.png" alt="" />
+              </div>
+              <h2>Delicious Pizza</h2>
+              <p>
+                Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                velit, magnam voluptatem repellendus sed eaque
+              </p>
+              <span>$17</span>
+              <div class="big">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              </div>
+            </div>
+
+            <div class="card1">
+              <div class="imgp">
+                <img style="width: 150px" src="./img/f4.png" alt="" />
+              </div>
+              <h2>Delicious Pizza</h2>
+              <p>
+                Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                velit, magnam voluptatem repellendus sed eaque
+              </p>
+              <span>$18</span>
+              <div class="big">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              </div>
+            </div>
+
+            <div class="card1">
+              <div class="imgp">
+                <img style="width: 150px" src="./img/f5.png" alt="" />
+              </div>
+              <h2>Delicious Pizza</h2>
+              <p>
+                Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                velit, magnam voluptatem repellendus sed eaque
+              </p>
+              <span>$10</span>
+              <div class="big">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              </div>
+            </div>
+
+            <div class="card1">
+              <div class="imgp">
+                <img style="width: 150px" src="./img/f6.png" alt="" />
+              </div>
+              <h2>Delicious Pizza</h2>
+              <p>
+                Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                velit, magnam voluptatem repellendus sed eaque
+              </p>
+              <span>$15</span>
+              <div class="big">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              </div>
+            </div>
+
+            <div class="card1">
+              <div class="imgp">
+                <img style="width: 150px" src="./img/f7.png" alt="" />
+              </div>
+              <h2>Delicious Pizza</h2>
+              <p>
+                Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                velit, magnam voluptatem repellendus sed eaque
+              </p>
+              <span>$12</span>
+              <div class="big">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              </div>
+            </div>
+
+            <div class="card1">
+              <div class="imgp">
+                <img style="width: 150px" src="./img/f8.png " alt="" />
+              </div>
+              <h2>Delicious Pizza</h2>
+              <p>
+                Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                velit, magnam voluptatem repellendus sed eaque
+              </p>
+              <span>$14</span>
+              <div class="big">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              </div>
+            </div>
+
+            <div class="card1">
+              <div class="imgp">
+                <img style="width: 150px" src="./img/f9.png" alt="" />
+              </div>
+              <h2>Delicious Pizza</h2>
+              <p>
+                Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                velit, magnam voluptatem repellendus sed eaque
+              </p>
+              <span>$10</span>
+              <div class="big">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              </div>
+            </div>
+
+            <button>View More</button>
+          </div>
+        </div>
+
+        <div class="center4">
+          <div class="imgh">
+            <img
+              style="height: 620px; margin-top: 90px"
+              src="./img/about-img.png"
+              alt=""
+            />
+          </div>
+          <div id="leftww">
+            <h1>We Are Feane</h1>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised words which don't look even
+              slightly believable. If you are going to use a passage of Lorem
+              Ipsum, you need to be sure there isn't anything embarrassing
+              hidden in the middle of text. All
+            </p>
+            <div class="buttonn">
+              <a href="index.html"><button>Read More</button></a>
+            </div>
+          </div>
+        </div>
+        <div id="center5">
+          <div id="e_left">
+            <h1>Book A Table</h1>
+            <input type="text" name="name" placeholder="Your Name" />
+            <input type="number" name="Number" placeholder="Phone Number" />
+            <input type="email" name="Email" placeholder="Your Email" />
+            <select name="section" class="select">
+              <option value="" disabled="" selected="">
+                How many persons?
+              </option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+              <option value="">5</option>
+            </select>
+            <input type="date" />
+            <div class="buttonnn">
+              <a href="index.html"><button>Book Now</button></a>
+            </div>
+          </div>
+          <div id="e_right">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12159.57936786621!2d49.8283142!3d40.366856!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d003e75c9ed%3A0x1437b2219146ae5c!2sFR%20School!5e0!3m2!1saz!2saz!4v1726463593562!5m2!1saz!2saz" width="400" height="300" id="i9" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="center6">
+          <div class="lorm">
+            <div class="iframe"><h2>What Says Our Customers</h2></div>
+            <br />
+          </div>
+          <div class="x">
+            <div class="left1">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam
+              </p>
+              <h6>Moana Michell</h6>
+              <p>magna aliqua</p>
+              <div id="e_img1"></div>
+            </div>
+
+            <div class="r">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam
+              </p>
+              <h6>Mike Hamell</h6>
+              <p>magna aliqua</p>
+              <div id="e_img2"></div>
+            </div>
+          </div>
+        </div>
+        <br /><br /><br /><br /><br /><br />
+        <div class="center7">
+          <div class="popo">
+            <div class="push">
+              <div class="Contact"><h3>Contact Us</h3></div>
+              <div class="loca">
+                <i class="fa fa-map-marker" aria-hidden="true"></i
+                ><span> Location </span>
+              </div>
+              <div class="koko">
+                <i class="fa fa-phone" aria-hidden="true"></i
+                ><span> Call +01 1234567890 </span>
+              </div>
+              <div class="lolo">
+                <i class="fa fa-envelope" aria-hidden="true"></i
+                ><span> demo@gmail.com </span>
+              </div>
+              <div class="ooo">
+                <div class="momo"><h3>Feane</h3></div>
+                <div class="pq">
+                  <p>
+                    Necessary, making this the first true generator on the
+                    Internet. It uses a dictionary of over 200 Latin words,
+                    combined with
+                  </p>
+                </div>
+
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-pinterest" aria-hidden="true"></i>
+              </div>
+              <div class="llll">
+                <div class="ddd"><h4>Opening Hours</h4></div>
+                <div class="uuu"><p>Everyday</p></div>
+                <div class="ttt"><p>10.00 Am -10.00 Pm</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="pes">
+            <div class="auto"><span>© 2024 All Rights Reserved By Free Html Templates</span></div>
+            <div class="lop"><span>© Distributed By ThemeWagon</span></div>
+        </div>
+      </section>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
